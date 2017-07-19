@@ -14,6 +14,8 @@ public class DummyController extends AbstractController{
 			HttpServletResponse response) throws Exception {
 
 		return new ModelAndView("redirect:DummyRedirectPage.htm");
+		
+		//test
 		//return new ModelAndView("DummyRedirect");
 		
 	}
