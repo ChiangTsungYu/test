@@ -1,3 +1,4 @@
+```mermaid
 graph TD
     %% Encoder + Projection Head
     A[Input: (特徵數, 1)] --> B[Conv1D(128, kernel=3) + ReLU]
@@ -26,3 +27,4 @@ graph TD
 
     %% 輸出預測
     Q --> R[分類結果]
+```
